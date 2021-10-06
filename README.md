@@ -10,8 +10,8 @@ Python의 대표 웹 프레임워크 django를 이용해 Pinterest 특유의 카
 
 
 ## 기술스택
-- Python 3.9.5
-- Django 3.2.7
+- Python 3.9.x
+- Django 3.2.x
 
 ## 장고 설치
 ```sh

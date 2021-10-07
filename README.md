@@ -21,3 +21,7 @@ pip install django
 ```sh
 python manage.py runserver
 ```
+## Django migration 사용법
+-Django model에 정보 변경이 생겼을때 아래 명령어로 migration 파일을 생성
+  - python manage.py makemigrations
+  - python manage.py migrate

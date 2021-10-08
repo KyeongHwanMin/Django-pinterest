@@ -147,3 +147,8 @@ STATICFILES_DIRS = [
 LOGIN_REDIRECT_URL = reverse_lazy('accountapp:hello_world')
 LOGOUT_REDIRECT_URL = reverse_lazy('accountapp:login')
 
+MEDIA_URL = '/media/'
+# 127.0.0.1:800/media/test.jpg
+# 주소창에 media 이하로 검색해야 접근 가능
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# 미디어 파일을 서버 올렸을 때 어느 경로에 지정 되는지(root)

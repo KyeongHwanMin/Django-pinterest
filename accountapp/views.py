@@ -67,7 +67,7 @@ class AccountDeleteView(DeleteView):
     template_name = 'accountapp/delete.html'
 
     def get(self, *args, **kwargs):
-        if self.request.user.is_authenticated and self.get_object() == self.request.user:
+        if self.request.user.is_authenticated and self.get_object() == self.request.user: #로그인 and primary_key
             return super().get(*args, **kwargs)
         else:
             return HttpResponseForbidden()

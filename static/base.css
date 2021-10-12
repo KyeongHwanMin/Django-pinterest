@@ -13,3 +13,8 @@
     margin: 2rem 0 ;
 }
 
+@media screen and (max-width:500px) {  /* 넓이가 500이하 일때 적용*/
+    html {
+        font-size: 13px;
+    }
+}

@@ -27,3 +27,4 @@ python manage.py runserver
   - python manage.py makemigrations
   - python manage.py migrate
 ```
+## 서버실행

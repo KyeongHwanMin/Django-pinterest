@@ -27,10 +27,15 @@ python manage.py runserver
   - python manage.py makemigrations
   - python manage.py migrate
 ```
-## Project snapshot
-### Home page
+## 프로젝트 스크린샷
+### 홈페이지
 
-![homepage](https://user-images.githubusercontent.com/17818416/137145109-7640a785-6d14-4acd-a3b6-84a095a5bd8c.png)
+![homepage](https://user-images.githubusercontent.com/17818416/137146931-b9c5f43f-dc54-40d0-9dff-1a65058972e4.png)
 
-### Login page
+### 로그인 페이지
+![login](https://user-images.githubusercontent.com/17818416/137146953-fbab06e3-ce59-46b2-a59b-a3f424a38fb9.PNG)
+
+### 회원가입 페이지
+![회원가입](https://user-images.githubusercontent.com/17818416/137147263-48dddafe-f790-40cf-a8fe-783f655d774a.PNG)
+
 

@@ -28,6 +28,9 @@ python manage.py runserver
   - python manage.py migrate
 ```
 ## Project snapshot
-#### Home page
+### Home page
 
 ![homepage](https://user-images.githubusercontent.com/17818416/137145109-7640a785-6d14-4acd-a3b6-84a095a5bd8c.png)
+
+### Login page
+

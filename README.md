@@ -27,6 +27,8 @@ python manage.py runserver
   - python manage.py makemigrations
   - python manage.py migrate
 ```
+
+
 ## 프로젝트 스크린샷
 ### 홈페이지
 

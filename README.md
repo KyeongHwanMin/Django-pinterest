@@ -31,8 +31,11 @@ python manage.py runserver
 
 ## 프로젝트 스크린샷
 ### 홈페이지
-![homepage](https://user-images.githubusercontent.com/17818416/137146931-b9c5f43f-dc54-40d0-9dff-1a65058972e4.png)
+![homepage](https://user-images.githubusercontent.com/17818416/137148930-04bfda6a-b1cc-4a80-93ab-c4d73de2c734.png)
 ### 로그인 페이지
-![login](https://user-images.githubusercontent.com/17818416/137146953-fbab06e3-ce59-46b2-a59b-a3f424a38fb9.PNG)
+![login](https://user-images.githubusercontent.com/17818416/137148882-24afd5b6-c07f-49f0-a093-85043de5f97d.PNG)
 ### 회원가입 페이지
-![회원가입](https://user-images.githubusercontent.com/17818416/137147263-48dddafe-f790-40cf-a8fe-783f655d774a.PNG)
+![회원가입](https://user-images.githubusercontent.com/17818416/137148841-7f34683d-c951-404d-9de1-52fe2bcb502a.PNG)
+### 나의 페이지
+![mypage](https://user-images.githubusercontent.com/17818416/137148820-ae630138-c3b0-41cd-ba42-8ee807d90d50.PNG)
+

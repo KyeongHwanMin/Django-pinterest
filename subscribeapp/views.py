@@ -17,7 +17,7 @@ class SubscriptionView(RedirectView):
 
     def get(self, request, *args, **kwargs):
 
-        project = get_object_or_404(Project, pk=self.request.GET.get('project_pk')) # 숏컷 함수 없으면 404 출력
+        project = get_object_or_404(Project, pk=self.request.GET.get('project_pk'))  # 숏컷 함수 없으면 404 출력
         user = self.request.user
 
         subscription = Subscription.objects.filter(user=user,
@@ -39,6 +39,6 @@ class SubscriptionListView(ListView):
     paginate_by = 5
 
     def get_queryset(self):
-        projects = Subscription.objects.filter(user=self.request.user).values_list('project') # 프로젝트를 리스트화
+        projects = Subscription.objects.filter(user=self.request.user).values_list('project')  # 프로젝트를 리스트화
         article_list = Article.objects.filter(project__in=projects)
         return article_list

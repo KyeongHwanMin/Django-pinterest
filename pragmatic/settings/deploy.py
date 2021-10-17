@@ -33,5 +33,6 @@ DATABASES = {
         'PASSWORD': 'password1234',
         'HOST': 'mariadb', #마리아 디비 컨테이너 이름
         'PORT': '3306', # mysql,maria db 사용 포트번호
+        
     }
 }

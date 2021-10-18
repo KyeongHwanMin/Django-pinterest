@@ -1,6 +1,39 @@
 version: "3.7"
 services:
-  django:
-    image: django_test_image:3
-    ports:
-      - 8000:8000
+  nginx:
+    image: nginx:1.19.5
+    networks: # nginx,django,maria db등 networks를 통해 연결해줌
+      - network
+    volumes:
+      - /home/django_course/nginx.conf:/etc/nginx/nginx.conf
+      - static-volume:/data/static
+      - media-volume:/data/media
+    ports: #nginx는 외부와 연결
+      - 80:80
+  django_container_gunicorn: #nginx.conf에서 만든 django 이름
+    image: django_test_image:4
+    networks:
+      - network
+    volumes:
+      - static-volume:/home/pragmatic/staticfiles
+      - media-volume:/home/pragmatic/media
+  mariadb: #settings에 있는 host 이름
+    image: mariadb:10.5
+    networks:
+      - network
+    volimes: #hub.docker.com mariadb 설정 참고
+      - maria-database:/var/lib/mysql
+    environment: #hub.docker.com mariadb 설정 참고
+      MYSQL_ROOT_PASSWORLD: password1234 # settings-deploy.py DATABASES내용입력
+      MYSQL_DATABASE: django
+      MYSQL_USER: django
+      MYSQL_PASSWORD: password1234
+
+
+networks:
+  network:
+
+volumes:
+  static-volume:
+  media-volume:
+  maria-database:

@@ -1,4 +1,4 @@
-#Pinterest
+# Pinterest
 
 ## 기술스택
 - Python 3.9.x

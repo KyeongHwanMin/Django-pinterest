@@ -3,6 +3,8 @@
 ## 기술스택
 - Python 3.9.x
 - Django 3.2.x
+- CSS
+- html
 
 ## 장고 설치
 ```sh

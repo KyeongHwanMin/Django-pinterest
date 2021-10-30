@@ -5,6 +5,7 @@
 - Django 3.2.x
 - CSS
 - html
+- Google Font
 
 ## 장고 설치
 ```sh

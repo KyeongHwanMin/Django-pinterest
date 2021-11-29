@@ -1,6 +1,4 @@
 # Pinterest
-[![Repository Card](https://widget.realdeveloper.pro/api/card?user=KyeongHwanMin&repo=Django-pinterest)](https://github.com/KyeongHwanMin/Django-pinterest)
-
 
 ## 기술스택
 - Python 3.9.x

@@ -22,7 +22,6 @@ python manage.py runserver
   - python manage.py migrate
 ```
 <br>
-
 ## 프로젝트 스크린샷
 ### 홈페이지
 ![homepage](https://user-images.githubusercontent.com/17818416/137148930-04bfda6a-b1cc-4a80-93ab-c4d73de2c734.png)

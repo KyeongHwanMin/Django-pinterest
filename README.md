@@ -23,14 +23,19 @@ python manage.py runserver
 ```
 <br>
 ## 프로젝트 스크린샷
+
 ### 홈페이지
 ![homepage](https://user-images.githubusercontent.com/17818416/137148930-04bfda6a-b1cc-4a80-93ab-c4d73de2c734.png)
+
 ### 로그인 페이지
 ![login](https://user-images.githubusercontent.com/17818416/137148882-24afd5b6-c07f-49f0-a093-85043de5f97d.PNG)
+
 ### 회원가입 페이지
 ![회원가입](https://user-images.githubusercontent.com/17818416/137148841-7f34683d-c951-404d-9de1-52fe2bcb502a.PNG)
+
 ### 나의 페이지
 ![mypage](https://user-images.githubusercontent.com/17818416/137148820-ae630138-c3b0-41cd-ba42-8ee807d90d50.PNG)
+
 ### 좋아요 기능
 ![좋아요](https://user-images.githubusercontent.com/17818416/137888437-fe642a2e-ef68-424a-8ba1-77f4bb116da9.PNG)
 

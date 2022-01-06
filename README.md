@@ -6,7 +6,6 @@
 - CSS
 - html
 - Google Font
-
 ## 장고 설치
 ```sh
 pip install django
